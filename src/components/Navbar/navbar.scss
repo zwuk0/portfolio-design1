@@ -1,0 +1,21 @@
+.navbar {
+  display: grid;
+  text-align: left;
+}
+.navbar__link {
+  font-family: "MADE TOMMY Regular";
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 0.5em;
+  &:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  &:hover {
+    color: wheat;
+    border-bottom: 1px solid wheat;
+    transform: scale(1.01, 1.01);
+    transition: ease-in;
+  }
+}

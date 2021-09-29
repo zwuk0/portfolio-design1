@@ -13,9 +13,20 @@
   display: grid;
   place-items: center;
 }
+.about__social {
+  margin-top: 1.5em;
+}
 .about__title {
   border-bottom: 1px solid white;
   padding-bottom: 0.2em;
+}
+.profile__text {
+  width: 100%;
+  max-width: 34.25em;
+  p {
+    margin-top: 1em;
+    white-space: normal;
+  }
 }
 .about__aboutme {
   margin-top: 0.5em;
@@ -38,6 +49,7 @@
 }
 .about__experties {
   max-width: 34.25em;
+
   width: 100%;
 }
 .experties {
@@ -66,4 +78,44 @@
 }
 .level-three {
   width: 40%;
+}
+.about__design {
+  width: 100%;
+
+  max-width: 34.25em;
+  margin-top: 3em;
+
+  p {
+    &:not(:first-child) {
+      margin-top: 0.5em;
+    }
+  }
+}
+.about__sftwr {
+  width: 100%;
+
+  max-width: 34.25em;
+  margin-top: 3em;
+  p {
+    &:not(:first-child) {
+      margin-top: 0.5em;
+    }
+  }
+}
+@media only screen and (min-width: 60em) {
+  .aboutme__container {
+    justify-content: center;
+    align-items: center;
+  }
+  .about {
+    display: flex;
+    height: fit-content;
+    width: 65%;
+  }
+  .about__aboutme {
+    width: 50%;
+  }
+  .about__skills {
+    width: 50%;
+  }
 }

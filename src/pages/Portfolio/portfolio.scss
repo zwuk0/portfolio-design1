@@ -1,6 +1,6 @@
 .portfolio__container {
   min-height: 100vh;
-  width: 100vw;
+  min-width: 100vw;
   color: white;
 }
 .projects__block {
@@ -14,10 +14,27 @@
 .project {
   margin: 1em;
   width: 90%;
+  max-width: 34.25em;
 }
 .project__text {
   margin-left: 0.8em;
 }
 .project__discription {
   margin-top: 0.5em;
+}
+
+@media only screen and (min-width: 60em) {
+  .portfolio__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects__block {
+    display: grid;
+    width: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+  .project {
+    max-width: 25em;
+  }
 }

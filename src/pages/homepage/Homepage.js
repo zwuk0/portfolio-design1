@@ -18,10 +18,6 @@ const Homepage = () => {
       </div>
       <div className="main__content">
         <div className="main__wrap">
-          {/* <div className="discription">
-            <p className="des__text">Hi, my name is Anupam Tirkey</p>
-            <p className="des__text">I'm a</p>
-          </div> */}
           <div className="bigtext__wrap">
             <span
               data-scroll
@@ -31,7 +27,14 @@ const Homepage = () => {
             >
               Front-end
             </span>
-            <span className="bigtext">DEVELOPER.</span>
+            <span
+              data-scroll
+              data-scroll-speed="-3"
+              data-scroll-direction="vertical"
+              className="bigtext"
+            >
+              DEVELOPER.
+            </span>
           </div>
           <div className="hc_nav">
             <Navbar />

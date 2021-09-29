@@ -48,6 +48,7 @@
 // }
 .hc_nav {
   margin-top: 5em;
+  max-width: 26em;
 }
 .double__arrow {
   margin-top: 4em;
@@ -76,5 +77,16 @@
 
   100% {
     transform: translateY(0em) rotate(90deg);
+  }
+}
+
+@media only screen and (min-width: 65em) {
+  .main__wrap {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .main__content {
+    height: 45em;
   }
 }

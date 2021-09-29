@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://github.com/zwuk0/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,8 @@
   },
   "scripts": {
     "start": "set BROWSER=Firefox&&react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,6 +41,7 @@
   },
   "devDependencies": {
     "@svgr/cli": "^5.5.0",
+    "gh-pages": "^3.2.3",
     "locomotive-scroll": "^4.1.1",
     "react-router-dom": "^5.3.0",
     "sass": "^1.38.2"

@@ -21,7 +21,7 @@ const Homepage = () => {
           <div className="bigtext__wrap">
             <span
               data-scroll
-              data-scroll-speed="3"
+              data-scroll-speed="2"
               data-scroll-direction="vertical"
               className="bigtext"
             >
@@ -29,7 +29,7 @@ const Homepage = () => {
             </span>
             <span
               data-scroll
-              data-scroll-speed="-3"
+              data-scroll-speed="-2"
               data-scroll-direction="vertical"
               className="bigtext"
             >

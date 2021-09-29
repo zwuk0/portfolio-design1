@@ -4,7 +4,12 @@ import { projects_data } from "./portfolio-data";
 function Portfolio() {
   return (
     <div className="portfolio__container" id="portfolio">
-      <div className="projects__block">
+      <div
+        data-scroll
+        data-scroll-speed="-3"
+        data-scroll-direction="vertical"
+        className="projects__block"
+      >
         {projects_data.map((project) => (
           <div className="project" key={project.id}>
             <img

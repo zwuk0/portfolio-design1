@@ -1,1 +1,24 @@
 @use "../assets/fonts/fonts.scss";
+
+h1 {
+  font-family: "MADE TOMMY Bold";
+  font-weight: lighter;
+}
+h2 {
+  font-family: "MADE TOMMY Medium";
+  font-weight: lighter;
+}
+h3 {
+  font-family: "MADE TOMMY Regular";
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+p {
+  font-family: "MADE TOMMY Thin";
+  font-size: 0.9rem;
+}
+span {
+  font-family: "MADE TOMMY Thin";
+  font-size: 0.9rem;
+}

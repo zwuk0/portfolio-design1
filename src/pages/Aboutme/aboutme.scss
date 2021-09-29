@@ -1,5 +1,69 @@
 .aboutme__container {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   color: white;
+  display: flex;
+  justify-content: center;
+}
+.about {
+  width: 90%;
+}
+
+.about__profile {
+  display: grid;
+  place-items: center;
+}
+.about__title {
+  border-bottom: 1px solid white;
+  padding-bottom: 0.2em;
+}
+.about__aboutme {
+  margin-top: 0.5em;
+}
+.level__guide {
+  margin-top: 0.5em;
+  width: 100%;
+  text-align: right;
+  span {
+    font-family: "MADE TOMMY Regular";
+    font-size: 0.8em;
+    &:not(:first-child) {
+      margin-left: 10%;
+    }
+  }
+}
+.about__skills {
+  display: grid;
+  place-items: center;
+}
+.about__experties {
+  max-width: 34.25em;
+  width: 100%;
+}
+.experties {
+  display: flex;
+  justify-content: space-between;
+  &:not(:first-child) {
+    margin-top: 0.5em;
+  }
+}
+.level__bar {
+  margin-top: 0.15em;
+  display: block;
+  width: 75%;
+  height: 0.8em;
+  background-color: rgb(70, 70, 70);
+}
+.level__inside {
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+}
+.level-one {
+  width: 75%;
+}
+.level-two {
+  width: 65%;
+}
+.level-three {
+  width: 40%;
 }

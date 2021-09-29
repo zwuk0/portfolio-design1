@@ -11,12 +11,12 @@ import "./homepage.scss";
 const Homepage = () => {
   return (
     <div className="homepage__container">
-      <div className="hc__blocks hc__blocks--small">
+      <div className="home__header">
         <div className="logo__wrap">
           <span className="logo">anupamtirkey.dev</span>
         </div>
       </div>
-      <div className="main__container">
+      <div className="main__content">
         <div className="main__wrap">
           {/* <div className="discription">
             <p className="des__text">Hi, my name is Anupam Tirkey</p>

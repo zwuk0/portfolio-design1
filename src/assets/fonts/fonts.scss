@@ -1,24 +1,27 @@
 @font-face {
-  font-family: "MADE TOMMY Outline Bold";
+  font-family: "MADE TOMMY Outline Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("MADE TOMMY Outline Bold"),
-    url("MADE TOMMY Bold Outline_PERSONAL USE.woff") format("woff");
+  src: local("MADE TOMMY Outline Regular"),
+    url("MADE TOMMY Regular Outline_PERSONAL USE.woff") format("woff");
 }
+
 @font-face {
-  font-family: "MADE TOMMY Bold";
+  font-family: "MADE TOMMY Outline Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("MADE TOMMY Bold"),
-    url("MADE TOMMY Bold_PERSONAL USE.woff") format("woff");
+  src: local("MADE TOMMY Outline Regular"),
+    url("MADE TOMMY Thin Outline_PERSONAL USE.woff") format("woff");
 }
+
 @font-face {
-  font-family: "MADE TOMMY Medium";
+  font-family: "MADE TOMMY Outline Light";
   font-style: normal;
   font-weight: normal;
-  src: local("MADE TOMMY Medium"),
-    url("MADE TOMMY Medium_PERSONAL USE.woff") format("woff");
+  src: local("MADE TOMMY Outline Light"),
+    url("MADE TOMMY Light Outline_PERSONAL USE.woff") format("woff");
 }
+
 @font-face {
   font-family: "MADE TOMMY Outline Medium";
   font-style: normal;
@@ -26,6 +29,31 @@
   src: local("MADE TOMMY Outline Medium"),
     url("MADE TOMMY Medium Outline_PERSONAL USE.woff") format("woff");
 }
+
+@font-face {
+  font-family: "MADE TOMMY Outline Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MADE TOMMY Outline Bold"),
+    url("MADE TOMMY Bold Outline_PERSONAL USE.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MADE TOMMY Outline ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MADE TOMMY Outline ExtraBold"),
+    url("MADE TOMMY ExtraBold Outline_PERSONAL USE.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MADE TOMMY Outline Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MADE TOMMY Outline Black"),
+    url("MADE TOMMY Black Outline_PERSONAL USE.woff") format("woff");
+}
+
 @font-face {
   font-family: "MADE TOMMY Regular";
   font-style: normal;
@@ -33,10 +61,51 @@
   src: local("MADE TOMMY Regular"),
     url("MADE TOMMY Regular_PERSONAL USE.woff") format("woff");
 }
+
 @font-face {
-  font-family: "MADE TOMMY Outline Regular";
+  font-family: "MADE TOMMY Thin";
   font-style: normal;
   font-weight: normal;
-  src: local("MADE TOMMY Outline Regular"),
-    url("MADE TOMMY Regular Outline_PERSONAL USE.woff") format("woff");
+  src: local("MADE TOMMY Thin"),
+    url("MADE TOMMY Thin_PERSONAL USE.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MADE TOMMY Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MADE TOMMY Light"),
+    url("MADE TOMMY Light_PERSONAL USE.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MADE TOMMY Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MADE TOMMY Medium"),
+    url("MADE TOMMY Medium_PERSONAL USE.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MADE TOMMY Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MADE TOMMY Bold"),
+    url("MADE TOMMY Bold_PERSONAL USE.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MADE TOMMY ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MADE TOMMY ExtraBold"),
+    url("MADE TOMMY ExtraBold_PERSONAL USE.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MADE TOMMY Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("MADE TOMMY Black"),
+    url("MADE TOMMY Black_PERSONAL USE.woff") format("woff");
 }

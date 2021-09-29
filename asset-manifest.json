@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/zwuk0/portfolio/static/css/main.27aa0d1f.chunk.css",
-    "main.js": "/zwuk0/portfolio/static/js/main.e91242d2.chunk.js",
-    "main.js.map": "/zwuk0/portfolio/static/js/main.e91242d2.chunk.js.map",
-    "runtime-main.js": "/zwuk0/portfolio/static/js/runtime-main.0f3c77b3.js",
-    "runtime-main.js.map": "/zwuk0/portfolio/static/js/runtime-main.0f3c77b3.js.map",
-    "static/css/2.f6295504.chunk.css": "/zwuk0/portfolio/static/css/2.f6295504.chunk.css",
-    "static/js/2.6f260d1b.chunk.js": "/zwuk0/portfolio/static/js/2.6f260d1b.chunk.js",
-    "static/js/2.6f260d1b.chunk.js.map": "/zwuk0/portfolio/static/js/2.6f260d1b.chunk.js.map",
-    "index.html": "/zwuk0/portfolio/index.html",
-    "static/css/2.f6295504.chunk.css.map": "/zwuk0/portfolio/static/css/2.f6295504.chunk.css.map",
-    "static/css/main.27aa0d1f.chunk.css.map": "/zwuk0/portfolio/static/css/main.27aa0d1f.chunk.css.map",
-    "static/js/2.6f260d1b.chunk.js.LICENSE.txt": "/zwuk0/portfolio/static/js/2.6f260d1b.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/zwuk0/portfolio/static/media/noise.66ea7b70.gif"
+    "main.css": "/portfolio/static/css/main.a2c2fc6f.chunk.css",
+    "main.js": "/portfolio/static/js/main.e91242d2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e91242d2.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
+    "static/css/2.f6295504.chunk.css": "/portfolio/static/css/2.f6295504.chunk.css",
+    "static/js/2.6f260d1b.chunk.js": "/portfolio/static/js/2.6f260d1b.chunk.js",
+    "static/js/2.6f260d1b.chunk.js.map": "/portfolio/static/js/2.6f260d1b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.f6295504.chunk.css.map": "/portfolio/static/css/2.f6295504.chunk.css.map",
+    "static/css/main.a2c2fc6f.chunk.css.map": "/portfolio/static/css/main.a2c2fc6f.chunk.css.map",
+    "static/js/2.6f260d1b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6f260d1b.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/portfolio/static/media/noise.66ea7b70.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f3c77b3.js",
+    "static/js/runtime-main.a9f76519.js",
     "static/css/2.f6295504.chunk.css",
     "static/js/2.6f260d1b.chunk.js",
-    "static/css/main.27aa0d1f.chunk.css",
+    "static/css/main.a2c2fc6f.chunk.css",
     "static/js/main.e91242d2.chunk.js"
   ]
 }

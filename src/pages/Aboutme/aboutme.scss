@@ -1,9 +1,11 @@
 .aboutme__container {
+  margin-top: 5em;
   min-height: 100vh;
   min-width: 100vw;
   color: white;
   display: flex;
   justify-content: center;
+  margin-bottom: 7em;
 }
 .about {
   width: 90%;
@@ -14,7 +16,16 @@
   place-items: center;
 }
 .about__social {
-  margin-top: 1.5em;
+  margin-top: 3em;
+}
+.btn__resume {
+  margin-top: 2em;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.3em;
 }
 .about__title {
   border-bottom: 1px solid white;
@@ -46,6 +57,7 @@
 .about__skills {
   display: grid;
   place-items: center;
+  margin-top: 5em;
 }
 .about__experties {
   max-width: 34.25em;
@@ -104,18 +116,29 @@
 }
 @media only screen and (min-width: 60em) {
   .aboutme__container {
+    margin-top: 0;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
   }
   .about {
     display: flex;
     height: fit-content;
-    width: 65%;
+
+    width: 80%;
+  }
+  .about__profile {
+    margin: 3em;
+    img {
+      margin-bottom: 2em;
+    }
   }
   .about__aboutme {
     width: 50%;
   }
   .about__skills {
     width: 50%;
+    margin-top: 0;
+    min-width: 30em;
   }
 }

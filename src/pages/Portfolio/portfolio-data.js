@@ -23,4 +23,28 @@ export const projects_data = [
     img_link:
       "https://unbounce.com/wp-content/webp-express/webp-images/doc-root/photos/750-X-400-2x-1000x533.jpg.webp",
   },
+  {
+    id: "4",
+    title: "3. project redmountain",
+    discription:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, omnis!",
+    img_link:
+      "https://unbounce.com/wp-content/webp-express/webp-images/doc-root/photos/750-X-400-2x-1000x533.jpg.webp",
+  },
+  {
+    id: "5",
+    title: "3. project redmountain",
+    discription:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, omnis!",
+    img_link:
+      "https://unbounce.com/wp-content/webp-express/webp-images/doc-root/photos/750-X-400-2x-1000x533.jpg.webp",
+  },
+  {
+    id: "6",
+    title: "3. project redmountain",
+    discription:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, omnis!",
+    img_link:
+      "https://unbounce.com/wp-content/webp-express/webp-images/doc-root/photos/750-X-400-2x-1000x533.jpg.webp",
+  },
 ];

@@ -32,9 +32,14 @@
   .projects__block {
     display: grid;
     width: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .project {
     max-width: 25em;
+    margin: 2em;
+  }
+  .project__text {
+    margin-left: 0.8em;
+    white-space: normal;
   }
 }

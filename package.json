@@ -1,21 +1,25 @@
 {
   "name": "portfolio",
-  "homepage": "https://github.com/zwuk0/portfolio",
+  "homepage": "https://zwuk0.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "gh-pages": "^3.2.3",
+    "locomotive-scroll": "^4.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
+    "sass": "^1.42.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "set BROWSER=Firefox&&react-scripts start",
-    "predeploy": "yarn run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,10 +44,6 @@
     ]
   },
   "devDependencies": {
-    "@svgr/cli": "^5.5.0",
-    "gh-pages": "^3.2.3",
-    "locomotive-scroll": "^4.1.1",
-    "react-router-dom": "^5.3.0",
-    "sass": "^1.38.2"
+    "@svgr/cli": "^5.5.0"
   }
 }

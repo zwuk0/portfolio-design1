@@ -1,7 +1,7 @@
 .aboutme__container {
   margin-top: 5em;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100%;
+  width: 100vw;
   color: white;
   display: flex;
   justify-content: center;
@@ -17,6 +17,7 @@
 }
 .about__social {
   margin-top: 3em;
+  margin-bottom: 0em;
 }
 .btn__resume {
   margin-top: 2em;

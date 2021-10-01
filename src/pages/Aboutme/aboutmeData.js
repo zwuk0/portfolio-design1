@@ -21,6 +21,12 @@ export const experties = [
   },
   {
     id: "exp3",
+    exprt: "Sass",
+    stl: "50%",
+    lvl: { width: "70%" },
+  },
+  {
+    id: "exp4",
     exprt: "ReactJs",
     stl: "50%",
     lvl: { width: "50%" },
